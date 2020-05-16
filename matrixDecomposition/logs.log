@@ -1,0 +1,646 @@
+INFO: 2020-05-07 21:52:24,799 ** Matrix is Doubly Stochastic **
+INFO: 2020-05-07 21:52:24,800 ** Original Input Matrix **
+INFO: 2020-05-07 21:52:24,800 [[Fraction(1, 2) Fraction(1, 3) Fraction(1, 6)]
+ [Fraction(0, 1) Fraction(1, 6) Fraction(5, 6)]
+ [Fraction(1, 2) Fraction(1, 2) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:24,801 ** Bipartite Graph **
+INFO: 2020-05-07 21:52:24,802 {0: {0, 1, 2}, 1: {1, 2}, 2: {0, 1}}
+INFO: 2020-05-07 21:52:24,802 ** Matching **
+INFO: 2020-05-07 21:52:24,803 {0: 2, 1: 1, 2: 0}
+INFO: 2020-05-07 21:52:24,803 ** Permutation Matrix **
+INFO: 2020-05-07 21:52:24,803 [[Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)]
+ [Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:24,804 ** Minimum Alpha **
+INFO: 2020-05-07 21:52:24,804 1/6
+INFO: 2020-05-07 21:52:24,804 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:52:24,804 [[Fraction(3, 5) Fraction(2, 5) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(2, 5) Fraction(3, 5) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:24,804 ** Bipartite Graph **
+INFO: 2020-05-07 21:52:24,804 {0: {0, 1}, 1: {2}, 2: {0, 1}}
+INFO: 2020-05-07 21:52:24,805 ** Matching **
+INFO: 2020-05-07 21:52:24,805 {0: 0, 2: 1, 1: 2}
+INFO: 2020-05-07 21:52:24,805 ** Permutation Matrix **
+INFO: 2020-05-07 21:52:24,805 [[Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:24,805 ** Minimum Alpha **
+INFO: 2020-05-07 21:52:24,805 3/5
+INFO: 2020-05-07 21:52:24,805 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:52:24,805 [[Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:25,113 ** Convex Combination **
+INFO: 2020-05-07 21:52:25,113 1/6*[[0 0 1]
+ [0 1 0]
+ [1 0 0]]+ 1/2*[[1 0 0]
+ [0 0 1]
+ [0 1 0]]+ 1/3*[[0 1 0]
+ [0 0 1]
+ [1 0 0]]
+INFO: 2020-05-07 21:52:25,113 Decomposition Validated
+INFO: 2020-05-07 21:52:25,113 Deterministic Solution
+INFO: 2020-05-07 21:52:25,113 [[1 0 0]
+ [0 0 1]
+ [0 1 0]]
+INFO: 2020-05-07 21:52:36,367 Matrix is Bi-Stochastic
+INFO: 2020-05-07 21:52:36,367 ** Original Input Matrix **
+INFO: 2020-05-07 21:52:36,367 [[Fraction(3, 10) Fraction(1, 5) Fraction(1, 5) Fraction(1, 10)]
+ [Fraction(1, 5) Fraction(3, 10) Fraction(3, 10) Fraction(2, 5)]
+ [Fraction(3, 10) Fraction(1, 5) Fraction(3, 10) Fraction(1, 5)]
+ [Fraction(1, 5) Fraction(3, 10) Fraction(1, 5) Fraction(3, 10)]]
+INFO: 2020-05-07 21:52:36,368 ** Bipartite Graph **
+INFO: 2020-05-07 21:52:36,368 {0: {0, 1, 2, 3}, 1: {0, 1, 2, 3}, 2: {0, 1, 2, 3}, 3: {0, 1, 2, 3}}
+INFO: 2020-05-07 21:52:36,368 ** Matching **
+INFO: 2020-05-07 21:52:36,368 {0: 0, 1: 1, 2: 2, 3: 3}
+INFO: 2020-05-07 21:52:36,368 ** Permutation Matrix **
+INFO: 2020-05-07 21:52:36,368 [[Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]]
+INFO: 2020-05-07 21:52:36,369 ** Minimum Alpha **
+INFO: 2020-05-07 21:52:36,369 3/10
+INFO: 2020-05-07 21:52:36,370 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:52:36,370 [[Fraction(0, 1) Fraction(1, 5) Fraction(1, 5) Fraction(1, 10)]
+ [Fraction(1, 5) Fraction(0, 1) Fraction(3, 10) Fraction(2, 5)]
+ [Fraction(3, 10) Fraction(1, 5) Fraction(0, 1) Fraction(1, 5)]
+ [Fraction(1, 5) Fraction(3, 10) Fraction(1, 5) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:36,372 ** Bipartite Graph **
+INFO: 2020-05-07 21:52:36,372 {0: {1, 2, 3}, 1: {0, 2, 3}, 2: {0, 1, 3}, 3: {0, 1, 2}}
+INFO: 2020-05-07 21:52:36,372 ** Matching **
+INFO: 2020-05-07 21:52:36,372 {1: 0, 0: 1, 3: 2, 2: 3}
+INFO: 2020-05-07 21:52:36,372 ** Permutation Matrix **
+INFO: 2020-05-07 21:52:36,372 [[Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:36,373 ** Minimum Alpha **
+INFO: 2020-05-07 21:52:36,373 1/5
+INFO: 2020-05-07 21:52:36,373 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:52:36,373 [[Fraction(0, 1) Fraction(0, 1) Fraction(1, 5) Fraction(1, 10)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(3, 10) Fraction(2, 5)]
+ [Fraction(3, 10) Fraction(1, 5) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(1, 5) Fraction(3, 10) Fraction(0, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:36,374 ** Bipartite Graph **
+INFO: 2020-05-07 21:52:36,374 {0: {2, 3}, 1: {2, 3}, 2: {0, 1}, 3: {0, 1}}
+INFO: 2020-05-07 21:52:36,374 ** Matching **
+INFO: 2020-05-07 21:52:36,374 {2: 0, 3: 1, 0: 2, 1: 3}
+INFO: 2020-05-07 21:52:36,374 ** Permutation Matrix **
+INFO: 2020-05-07 21:52:36,375 [[Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:36,375 ** Minimum Alpha **
+INFO: 2020-05-07 21:52:36,375 1/5
+INFO: 2020-05-07 21:52:36,375 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:52:36,375 [[Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 10)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(3, 10) Fraction(1, 5)]
+ [Fraction(1, 10) Fraction(1, 5) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(1, 5) Fraction(1, 10) Fraction(0, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:36,376 ** Bipartite Graph **
+INFO: 2020-05-07 21:52:36,376 {0: {3}, 1: {2, 3}, 2: {0, 1}, 3: {0, 1}}
+INFO: 2020-05-07 21:52:36,376 ** Matching **
+INFO: 2020-05-07 21:52:36,376 {3: 0, 2: 1, 0: 2, 1: 3}
+INFO: 2020-05-07 21:52:36,376 ** Permutation Matrix **
+INFO: 2020-05-07 21:52:36,376 [[Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)]
+ [Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:36,376 ** Minimum Alpha **
+INFO: 2020-05-07 21:52:36,376 1/10
+INFO: 2020-05-07 21:52:36,376 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:52:36,376 [[Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 5) Fraction(1, 5)]
+ [Fraction(0, 1) Fraction(1, 5) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(1, 5) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:36,377 ** Bipartite Graph **
+INFO: 2020-05-07 21:52:36,377 {0: set(), 1: {2, 3}, 2: {1}, 3: {0}}
+INFO: 2020-05-07 21:52:36,377 ** Matching **
+INFO: 2020-05-07 21:52:36,377 {2: 1, 1: 2, 0: 3}
+INFO: 2020-05-07 21:52:36,377 ** Permutation Matrix **
+INFO: 2020-05-07 21:52:36,377 [[Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:36,377 ** Minimum Alpha **
+INFO: 2020-05-07 21:52:36,377 1/5
+INFO: 2020-05-07 21:52:36,377 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:52:36,378 [[Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 5)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:36,378 ** Bipartite Graph **
+INFO: 2020-05-07 21:52:36,378 {0: set(), 1: {3}, 2: set(), 3: set()}
+INFO: 2020-05-07 21:52:36,378 ** Matching **
+INFO: 2020-05-07 21:52:36,378 {3: 1}
+INFO: 2020-05-07 21:52:36,378 ** Permutation Matrix **
+INFO: 2020-05-07 21:52:36,378 [[Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:36,378 ** Minimum Alpha **
+INFO: 2020-05-07 21:52:36,378 1/5
+INFO: 2020-05-07 21:52:36,379 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:52:36,379 [[Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:36,380 ** Convex Combination **
+INFO: 2020-05-07 21:52:36,380 3/10*[[1 0 0 0]
+ [0 1 0 0]
+ [0 0 1 0]
+ [0 0 0 1]] + 1/5*[[0 1 0 0]
+ [1 0 0 0]
+ [0 0 0 1]
+ [0 0 1 0]] + 1/5*[[0 0 1 0]
+ [0 0 0 1]
+ [1 0 0 0]
+ [0 1 0 0]] + 1/10*[[0 0 0 1]
+ [0 0 1 0]
+ [1 0 0 0]
+ [0 1 0 0]] + 1/5*[[0 0 0 0]
+ [0 0 1 0]
+ [0 1 0 0]
+ [1 0 0 0]] + 1/5*[[0 0 0 0]
+ [0 0 0 1]
+ [0 0 0 0]
+ [0 0 0 0]]
+INFO: 2020-05-07 21:52:36,380 Decomposition Validated
+INFO: 2020-05-07 21:52:36,381 ** Deterministic Solution **
+INFO: 2020-05-07 21:52:36,381 [[0 0 1 0]
+ [0 0 0 1]
+ [1 0 0 0]
+ [0 1 0 0]]
+INFO: 2020-05-07 21:52:36,381 ** Final Deterministic Solution **
+INFO: 2020-05-07 21:52:36,381 [[0 0 1 0]
+ [0 0 0 1]
+ [1 0 0 0]
+ [0 1 0 0]]
+INFO: 2020-05-07 21:52:57,729 Matrix is Bi-Stochastic
+INFO: 2020-05-07 21:52:57,729 ** Original Input Matrix **
+INFO: 2020-05-07 21:52:57,729 [[Fraction(1, 2) Fraction(1, 2) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 3) Fraction(0, 1) Fraction(0, 1)
+  Fraction(1, 3) Fraction(1, 3)]
+ [Fraction(1, 2) Fraction(0, 1) Fraction(1, 2) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 12) Fraction(1, 4) Fraction(0, 1)
+  Fraction(1, 3) Fraction(1, 3)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 12) Fraction(1, 4) Fraction(0, 1)
+  Fraction(1, 3) Fraction(1, 3)]]
+INFO: 2020-05-07 21:52:57,730 ** Bipartite Graph **
+INFO: 2020-05-07 21:52:57,730 {0: {0, 1}, 1: {1, 4, 5}, 2: {0, 2}, 3: {1, 2, 4, 5}, 4: {3}, 5: {1, 2, 4, 5}}
+INFO: 2020-05-07 21:52:57,730 ** Matching **
+INFO: 2020-05-07 21:52:57,731 {0: 0, 1: 1, 2: 2, 4: 3, 3: 4, 5: 5}
+INFO: 2020-05-07 21:52:57,732 ** Permutation Matrix **
+INFO: 2020-05-07 21:52:57,732 [[Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(1, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(1, 1)]]
+INFO: 2020-05-07 21:52:57,734 ** Minimum Alpha **
+INFO: 2020-05-07 21:52:57,734 1/3
+INFO: 2020-05-07 21:52:57,734 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:52:57,734 [[Fraction(1, 6) Fraction(1, 2) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(1, 3) Fraction(1, 3)]
+ [Fraction(1, 2) Fraction(0, 1) Fraction(1, 6) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 12) Fraction(1, 4) Fraction(0, 1)
+  Fraction(0, 1) Fraction(1, 3)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(2, 3)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 12) Fraction(1, 4) Fraction(0, 1)
+  Fraction(1, 3) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:57,735 ** Bipartite Graph **
+INFO: 2020-05-07 21:52:57,735 {0: {0, 1}, 1: {4, 5}, 2: {0, 2}, 3: {1, 2, 5}, 4: {3}, 5: {1, 2, 4}}
+INFO: 2020-05-07 21:52:57,735 ** Matching **
+INFO: 2020-05-07 21:52:57,735 {0: 0, 4: 1, 2: 2, 1: 5, 3: 4, 5: 3}
+INFO: 2020-05-07 21:52:57,735 ** Permutation Matrix **
+INFO: 2020-05-07 21:52:57,736 [[Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(1, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:57,736 ** Minimum Alpha **
+INFO: 2020-05-07 21:52:57,736 1/12
+INFO: 2020-05-07 21:52:57,736 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:52:57,736 [[Fraction(1, 12) Fraction(1, 2) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(1, 4) Fraction(1, 3)]
+ [Fraction(1, 2) Fraction(0, 1) Fraction(1, 12) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 12) Fraction(1, 4) Fraction(0, 1)
+  Fraction(0, 1) Fraction(1, 4)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(7, 12)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 4) Fraction(0, 1)
+  Fraction(1, 3) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:57,737 ** Bipartite Graph **
+INFO: 2020-05-07 21:52:57,737 {0: {0, 1}, 1: {4, 5}, 2: {0, 2}, 3: {1, 2, 5}, 4: {3}, 5: {2, 4}}
+INFO: 2020-05-07 21:52:57,737 ** Matching **
+INFO: 2020-05-07 21:52:57,737 {0: 0, 4: 5, 2: 2, 1: 3, 3: 4, 5: 1}
+INFO: 2020-05-07 21:52:57,737 ** Permutation Matrix **
+INFO: 2020-05-07 21:52:57,737 [[Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(1, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:57,738 ** Minimum Alpha **
+INFO: 2020-05-07 21:52:57,738 1/12
+INFO: 2020-05-07 21:52:57,738 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:52:57,738 [[Fraction(0, 1) Fraction(1, 2) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(1, 4) Fraction(1, 4)]
+ [Fraction(1, 2) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 4) Fraction(0, 1)
+  Fraction(0, 1) Fraction(1, 4)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 2)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 4) Fraction(0, 1)
+  Fraction(1, 4) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:57,739 ** Bipartite Graph **
+INFO: 2020-05-07 21:52:57,739 {0: {1}, 1: {4, 5}, 2: {0}, 3: {2, 5}, 4: {3}, 5: {2, 4}}
+INFO: 2020-05-07 21:52:57,739 ** Matching **
+INFO: 2020-05-07 21:52:57,739 {1: 0, 4: 1, 0: 2, 2: 5, 3: 4, 5: 3}
+INFO: 2020-05-07 21:52:57,739 ** Permutation Matrix **
+INFO: 2020-05-07 21:52:57,739 [[Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(1, 1) Fraction(0, 1)]
+ [Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:57,739 ** Minimum Alpha **
+INFO: 2020-05-07 21:52:57,739 1/4
+INFO: 2020-05-07 21:52:57,740 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:52:57,740 [[Fraction(0, 1) Fraction(1, 4) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(1, 4)]
+ [Fraction(1, 4) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 4) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 4)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(1, 4) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:57,740 ** Bipartite Graph **
+INFO: 2020-05-07 21:52:57,740 {0: {1}, 1: {5}, 2: {0}, 3: {2}, 4: {3}, 5: {4}}
+INFO: 2020-05-07 21:52:57,740 ** Matching **
+INFO: 2020-05-07 21:52:57,740 {1: 0, 5: 1, 0: 2, 2: 3, 3: 4, 4: 5}
+INFO: 2020-05-07 21:52:57,740 ** Permutation Matrix **
+INFO: 2020-05-07 21:52:57,740 [[Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(1, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:57,741 ** Minimum Alpha **
+INFO: 2020-05-07 21:52:57,741 1/4
+INFO: 2020-05-07 21:52:57,741 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:52:57,741 [[Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)
+  Fraction(0, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:52:57,744 ** Convex Combination **
+INFO: 2020-05-07 21:52:57,744 1/3*[[1 0 0 0 0 0]
+ [0 1 0 0 0 0]
+ [0 0 1 0 0 0]
+ [0 0 0 0 1 0]
+ [0 0 0 1 0 0]
+ [0 0 0 0 0 1]] + 1/12*[[1 0 0 0 0 0]
+ [0 0 0 0 1 0]
+ [0 0 1 0 0 0]
+ [0 0 0 0 0 1]
+ [0 0 0 1 0 0]
+ [0 1 0 0 0 0]] + 1/12*[[1 0 0 0 0 0]
+ [0 0 0 0 0 1]
+ [0 0 1 0 0 0]
+ [0 1 0 0 0 0]
+ [0 0 0 1 0 0]
+ [0 0 0 0 1 0]] + 1/4*[[0 1 0 0 0 0]
+ [0 0 0 0 1 0]
+ [1 0 0 0 0 0]
+ [0 0 0 0 0 1]
+ [0 0 0 1 0 0]
+ [0 0 1 0 0 0]] + 1/4*[[0 1 0 0 0 0]
+ [0 0 0 0 0 1]
+ [1 0 0 0 0 0]
+ [0 0 1 0 0 0]
+ [0 0 0 1 0 0]
+ [0 0 0 0 1 0]]
+INFO: 2020-05-07 21:52:57,745 Decomposition Validated
+INFO: 2020-05-07 21:52:57,745 ** Deterministic Solution **
+INFO: 2020-05-07 21:52:57,745 [[1 0 0 0 0 0]
+ [0 0 0 0 0 1]
+ [0 0 1 0 0 0]
+ [0 1 0 0 0 0]
+ [0 0 0 1 0 0]
+ [0 0 0 0 1 0]]
+INFO: 2020-05-07 21:52:57,747 ** Final Deterministic Solution **
+INFO: 2020-05-07 21:52:57,747 [[1 1 0 0]
+ [0 0 0 1]
+ [0 0 1 0]]
+INFO: 2020-05-07 21:53:12,174 ** Matrix is Doubly Stochastic **
+INFO: 2020-05-07 21:53:12,174 ** Original Input Matrix **
+INFO: 2020-05-07 21:53:12,174 [[Fraction(2, 5) Fraction(3, 10) Fraction(1, 5) Fraction(1, 10)]
+ [Fraction(1, 10) Fraction(2, 5) Fraction(3, 10) Fraction(1, 5)]
+ [Fraction(3, 10) Fraction(1, 5) Fraction(1, 10) Fraction(2, 5)]
+ [Fraction(1, 5) Fraction(1, 10) Fraction(2, 5) Fraction(3, 10)]]
+INFO: 2020-05-07 21:53:12,176 ** Bipartite Graph **
+INFO: 2020-05-07 21:53:12,177 {0: {0, 1, 2, 3}, 1: {0, 1, 2, 3}, 2: {0, 1, 2, 3}, 3: {0, 1, 2, 3}}
+INFO: 2020-05-07 21:53:12,177 {0: {0, 1, 2, 3}, 1: {0, 1, 2, 3}, 2: {0, 1, 2, 3}, 3: {0, 1, 2, 3}}
+INFO: 2020-05-07 21:53:12,178 ** BottleNeck **
+INFO: 2020-05-07 21:53:12,178 1/10
+INFO: 2020-05-07 21:53:12,178 ** Matching **
+INFO: 2020-05-07 21:53:12,178 {1: 0, 3: 1, 2: 2, 0: 3}
+INFO: 2020-05-07 21:53:12,178 ** Unmatched **
+INFO: 2020-05-07 21:53:12,178 set()
+INFO: 2020-05-07 21:53:12,178 ** Matching **
+INFO: 2020-05-07 21:53:12,178 {1: 0, 3: 1, 2: 2, 0: 3}
+INFO: 2020-05-07 21:53:12,178 ** Permutation Matrix **
+INFO: 2020-05-07 21:53:12,178 [[Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:53:12,179 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:53:12,179 [[Fraction(2, 5) Fraction(3, 10) Fraction(1, 5) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(2, 5) Fraction(3, 10) Fraction(1, 5)]
+ [Fraction(3, 10) Fraction(1, 5) Fraction(0, 1) Fraction(2, 5)]
+ [Fraction(1, 5) Fraction(0, 1) Fraction(2, 5) Fraction(3, 10)]]
+INFO: 2020-05-07 21:53:12,179 ** Bipartite Graph **
+INFO: 2020-05-07 21:53:12,179 {0: {0, 1, 2}, 1: {1, 2, 3}, 2: {0, 1, 3}, 3: {0, 2, 3}}
+INFO: 2020-05-07 21:53:12,179 {0: {0, 2, 3}, 1: {0, 1, 2}, 2: {0, 1, 3}, 3: {1, 2, 3}}
+INFO: 2020-05-07 21:53:12,180 ** BottleNeck **
+INFO: 2020-05-07 21:53:12,180 1/5
+INFO: 2020-05-07 21:53:12,180 ** Matching **
+INFO: 2020-05-07 21:53:12,180 {3: 0, 2: 1, 0: 2, 1: 3}
+INFO: 2020-05-07 21:53:12,180 ** Unmatched **
+INFO: 2020-05-07 21:53:12,180 set()
+INFO: 2020-05-07 21:53:12,180 ** Matching **
+INFO: 2020-05-07 21:53:12,180 {3: 0, 2: 1, 0: 2, 1: 3}
+INFO: 2020-05-07 21:53:12,181 ** Permutation Matrix **
+INFO: 2020-05-07 21:53:12,181 [[Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:53:12,181 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:53:12,181 [[Fraction(2, 5) Fraction(3, 10) Fraction(1, 10) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(2, 5) Fraction(3, 10) Fraction(1, 10)]
+ [Fraction(3, 10) Fraction(1, 10) Fraction(0, 1) Fraction(2, 5)]
+ [Fraction(1, 10) Fraction(0, 1) Fraction(2, 5) Fraction(3, 10)]]
+INFO: 2020-05-07 21:53:12,182 ** Bipartite Graph **
+INFO: 2020-05-07 21:53:12,182 {0: {0, 1, 2}, 1: {1, 2, 3}, 2: {0, 1, 3}, 3: {0, 2, 3}}
+INFO: 2020-05-07 21:53:12,182 {0: {0, 2, 3}, 1: {0, 1, 2}, 2: {0, 1, 3}, 3: {1, 2, 3}}
+INFO: 2020-05-07 21:53:12,182 ** BottleNeck **
+INFO: 2020-05-07 21:53:12,182 1/10
+INFO: 2020-05-07 21:53:12,182 ** Matching **
+INFO: 2020-05-07 21:53:12,182 {3: 0, 2: 1, 0: 2, 1: 3}
+INFO: 2020-05-07 21:53:12,182 ** Unmatched **
+INFO: 2020-05-07 21:53:12,182 set()
+INFO: 2020-05-07 21:53:12,182 ** Matching **
+INFO: 2020-05-07 21:53:12,182 {3: 0, 2: 1, 0: 2, 1: 3}
+INFO: 2020-05-07 21:53:12,182 ** Permutation Matrix **
+INFO: 2020-05-07 21:53:12,182 [[Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:53:12,183 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:53:12,183 [[Fraction(2, 5) Fraction(3, 10) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(2, 5) Fraction(3, 10) Fraction(0, 1)]
+ [Fraction(3, 10) Fraction(0, 1) Fraction(0, 1) Fraction(2, 5)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(2, 5) Fraction(3, 10)]]
+INFO: 2020-05-07 21:53:12,183 ** Bipartite Graph **
+INFO: 2020-05-07 21:53:12,183 {0: {0, 1}, 1: {1, 2}, 2: {0, 3}, 3: {2, 3}}
+INFO: 2020-05-07 21:53:12,183 {0: {0, 2}, 1: {0, 1}, 2: {1, 3}, 3: {2, 3}}
+INFO: 2020-05-07 21:53:12,184 ** BottleNeck **
+INFO: 2020-05-07 21:53:12,184 3/10
+INFO: 2020-05-07 21:53:12,184 ** Matching **
+INFO: 2020-05-07 21:53:12,184 {2: 0, 0: 1, 1: 2, 3: 3}
+INFO: 2020-05-07 21:53:12,184 ** Unmatched **
+INFO: 2020-05-07 21:53:12,184 set()
+INFO: 2020-05-07 21:53:12,184 ** Matching **
+INFO: 2020-05-07 21:53:12,184 {2: 0, 0: 1, 1: 2, 3: 3}
+INFO: 2020-05-07 21:53:12,184 ** Permutation Matrix **
+INFO: 2020-05-07 21:53:12,184 [[Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)]
+ [Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]]
+INFO: 2020-05-07 21:53:12,184 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:53:12,184 [[Fraction(2, 5) Fraction(1, 5) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(2, 5) Fraction(1, 5) Fraction(0, 1)]
+ [Fraction(1, 5) Fraction(0, 1) Fraction(0, 1) Fraction(2, 5)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(2, 5) Fraction(1, 5)]]
+INFO: 2020-05-07 21:53:12,185 ** Bipartite Graph **
+INFO: 2020-05-07 21:53:12,185 {0: {0, 1}, 1: {1, 2}, 2: {0, 3}, 3: {2, 3}}
+INFO: 2020-05-07 21:53:12,185 {0: {0, 2}, 1: {0, 1}, 2: {1, 3}, 3: {2, 3}}
+INFO: 2020-05-07 21:53:12,185 ** BottleNeck **
+INFO: 2020-05-07 21:53:12,185 1/5
+INFO: 2020-05-07 21:53:12,185 ** Matching **
+INFO: 2020-05-07 21:53:12,185 {2: 0, 0: 1, 1: 2, 3: 3}
+INFO: 2020-05-07 21:53:12,185 ** Unmatched **
+INFO: 2020-05-07 21:53:12,185 set()
+INFO: 2020-05-07 21:53:12,185 ** Matching **
+INFO: 2020-05-07 21:53:12,186 {2: 0, 0: 1, 1: 2, 3: 3}
+INFO: 2020-05-07 21:53:12,186 ** Permutation Matrix **
+INFO: 2020-05-07 21:53:12,186 [[Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)]
+ [Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]]
+INFO: 2020-05-07 21:53:12,186 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:53:12,186 [[Fraction(2, 5) Fraction(1, 10) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(2, 5) Fraction(1, 10) Fraction(0, 1)]
+ [Fraction(1, 10) Fraction(0, 1) Fraction(0, 1) Fraction(2, 5)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(2, 5) Fraction(1, 10)]]
+INFO: 2020-05-07 21:53:12,186 ** Bipartite Graph **
+INFO: 2020-05-07 21:53:12,186 {0: {0, 1}, 1: {1, 2}, 2: {0, 3}, 3: {2, 3}}
+INFO: 2020-05-07 21:53:12,187 {0: {0, 2}, 1: {0, 1}, 2: {1, 3}, 3: {2, 3}}
+INFO: 2020-05-07 21:53:12,187 ** BottleNeck **
+INFO: 2020-05-07 21:53:12,187 1/10
+INFO: 2020-05-07 21:53:12,187 ** Matching **
+INFO: 2020-05-07 21:53:12,187 {2: 0, 0: 1, 1: 2, 3: 3}
+INFO: 2020-05-07 21:53:12,187 ** Unmatched **
+INFO: 2020-05-07 21:53:12,187 set()
+INFO: 2020-05-07 21:53:12,187 ** Matching **
+INFO: 2020-05-07 21:53:12,188 {2: 0, 0: 1, 1: 2, 3: 3}
+INFO: 2020-05-07 21:53:12,188 ** Permutation Matrix **
+INFO: 2020-05-07 21:53:12,189 [[Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)]
+ [Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]]
+INFO: 2020-05-07 21:53:12,190 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:53:12,190 [[Fraction(2, 5) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(2, 5) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(2, 5)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(2, 5) Fraction(0, 1)]]
+INFO: 2020-05-07 21:53:12,190 ** Bipartite Graph **
+INFO: 2020-05-07 21:53:12,190 {0: {0}, 1: {1}, 2: {3}, 3: {2}}
+INFO: 2020-05-07 21:53:12,190 {0: {0}, 1: {1}, 3: {2}, 2: {3}}
+INFO: 2020-05-07 21:53:12,191 ** BottleNeck **
+INFO: 2020-05-07 21:53:12,191 2/5
+INFO: 2020-05-07 21:53:12,191 ** Matching **
+INFO: 2020-05-07 21:53:12,191 {0: 0, 1: 1, 2: 3, 3: 2}
+INFO: 2020-05-07 21:53:12,191 ** Unmatched **
+INFO: 2020-05-07 21:53:12,191 set()
+INFO: 2020-05-07 21:53:12,191 ** Matching **
+INFO: 2020-05-07 21:53:12,191 {0: 0, 1: 1, 2: 3, 3: 2}
+INFO: 2020-05-07 21:53:12,191 ** Permutation Matrix **
+INFO: 2020-05-07 21:53:12,191 [[Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:53:12,192 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:53:12,192 [[Fraction(3, 10) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(3, 10) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(3, 10)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(3, 10) Fraction(0, 1)]]
+INFO: 2020-05-07 21:53:12,192 ** Bipartite Graph **
+INFO: 2020-05-07 21:53:12,192 {0: {0}, 1: {1}, 2: {3}, 3: {2}}
+INFO: 2020-05-07 21:53:12,192 {0: {0}, 1: {1}, 3: {2}, 2: {3}}
+INFO: 2020-05-07 21:53:12,193 ** BottleNeck **
+INFO: 2020-05-07 21:53:12,193 3/10
+INFO: 2020-05-07 21:53:12,193 ** Matching **
+INFO: 2020-05-07 21:53:12,193 {0: 0, 1: 1, 2: 3, 3: 2}
+INFO: 2020-05-07 21:53:12,193 ** Unmatched **
+INFO: 2020-05-07 21:53:12,193 set()
+INFO: 2020-05-07 21:53:12,193 ** Matching **
+INFO: 2020-05-07 21:53:12,193 {0: 0, 1: 1, 2: 3, 3: 2}
+INFO: 2020-05-07 21:53:12,193 ** Permutation Matrix **
+INFO: 2020-05-07 21:53:12,193 [[Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:53:12,193 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:53:12,193 [[Fraction(1, 5) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 5) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 5)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 5) Fraction(0, 1)]]
+INFO: 2020-05-07 21:53:12,194 ** Bipartite Graph **
+INFO: 2020-05-07 21:53:12,194 {0: {0}, 1: {1}, 2: {3}, 3: {2}}
+INFO: 2020-05-07 21:53:12,194 {0: {0}, 1: {1}, 3: {2}, 2: {3}}
+INFO: 2020-05-07 21:53:12,194 ** BottleNeck **
+INFO: 2020-05-07 21:53:12,194 1/5
+INFO: 2020-05-07 21:53:12,194 ** Matching **
+INFO: 2020-05-07 21:53:12,194 {0: 0, 1: 1, 2: 3, 3: 2}
+INFO: 2020-05-07 21:53:12,194 ** Unmatched **
+INFO: 2020-05-07 21:53:12,194 set()
+INFO: 2020-05-07 21:53:12,194 ** Matching **
+INFO: 2020-05-07 21:53:12,194 {0: 0, 1: 1, 2: 3, 3: 2}
+INFO: 2020-05-07 21:53:12,194 ** Permutation Matrix **
+INFO: 2020-05-07 21:53:12,194 [[Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:53:12,195 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:53:12,195 [[Fraction(1, 10) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 10) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 10)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 10) Fraction(0, 1)]]
+INFO: 2020-05-07 21:53:12,195 ** Bipartite Graph **
+INFO: 2020-05-07 21:53:12,195 {0: {0}, 1: {1}, 2: {3}, 3: {2}}
+INFO: 2020-05-07 21:53:12,195 {0: {0}, 1: {1}, 3: {2}, 2: {3}}
+INFO: 2020-05-07 21:53:12,195 ** BottleNeck **
+INFO: 2020-05-07 21:53:12,195 1/10
+INFO: 2020-05-07 21:53:12,196 ** Matching **
+INFO: 2020-05-07 21:53:12,196 {0: 0, 1: 1, 2: 3, 3: 2}
+INFO: 2020-05-07 21:53:12,196 ** Unmatched **
+INFO: 2020-05-07 21:53:12,196 set()
+INFO: 2020-05-07 21:53:12,196 ** Matching **
+INFO: 2020-05-07 21:53:12,196 {0: 0, 1: 1, 2: 3, 3: 2}
+INFO: 2020-05-07 21:53:12,196 ** Permutation Matrix **
+INFO: 2020-05-07 21:53:12,196 [[Fraction(1, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(1, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(1, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(1, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:53:12,196 ** New Matrix Computed for Next Iteration **
+INFO: 2020-05-07 21:53:12,196 [[Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]
+ [Fraction(0, 1) Fraction(0, 1) Fraction(0, 1) Fraction(0, 1)]]
+INFO: 2020-05-07 21:53:12,197 ** Convex Combination **
+INFO: 2020-05-07 21:53:12,197 1/10*[[0 0 0 1]
+ [1 0 0 0]
+ [0 0 1 0]
+ [0 1 0 0]] + 1/10*[[0 0 1 0]
+ [0 0 0 1]
+ [0 1 0 0]
+ [1 0 0 0]] + 1/10*[[0 0 1 0]
+ [0 0 0 1]
+ [0 1 0 0]
+ [1 0 0 0]] + 1/10*[[0 1 0 0]
+ [0 0 1 0]
+ [1 0 0 0]
+ [0 0 0 1]] + 1/10*[[0 1 0 0]
+ [0 0 1 0]
+ [1 0 0 0]
+ [0 0 0 1]] + 1/10*[[0 1 0 0]
+ [0 0 1 0]
+ [1 0 0 0]
+ [0 0 0 1]] + 1/10*[[1 0 0 0]
+ [0 1 0 0]
+ [0 0 0 1]
+ [0 0 1 0]] + 1/10*[[1 0 0 0]
+ [0 1 0 0]
+ [0 0 0 1]
+ [0 0 1 0]] + 1/10*[[1 0 0 0]
+ [0 1 0 0]
+ [0 0 0 1]
+ [0 0 1 0]] + 1/10*[[1 0 0 0]
+ [0 1 0 0]
+ [0 0 0 1]
+ [0 0 1 0]]
+WARNING: 2020-05-07 21:53:12,198 ** Decomposition Not Validated **
+INFO: 2020-05-07 21:53:12,198 ** Deterministic Solution **
+INFO: 2020-05-07 21:53:12,199 [[1 0 0 0]
+ [0 1 0 0]
+ [0 0 0 1]
+ [0 0 1 0]]
